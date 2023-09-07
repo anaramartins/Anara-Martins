@@ -18,7 +18,7 @@ body {
 }
 
 .foto-home {
-     
+     display: flex;
         width: 150px;
         height: auto;
         border: 10px solid purple;
@@ -191,10 +191,164 @@ cursor: pointer;
 
   .contatosIn {
     text-align: center; /* Alinha os ícones horizontalmente */
+    margin: 20px;
+    
   }
+
+ 
+    
+  @media (min-width: 481px) {
+    .front {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
   
-  .icone-contato {
-    width: 400px; /* Defina a largura desejada para os ícones */
-    height: auto; /* Mantém a proporção original da imagem */
-    margin-right: 10px; /* Espaçamento entre os ícones (opcional) */
+    .foto-home {
+      width: 200px; /* Largura da imagem */
+      margin-right: 20px; /* Espaço entre a imagem e o texto */
+      transition: transform 0.3s;
+      margin-top: 20px;
+      margin-left: 10px;
+    }
+    #foto-home:hover {
+        transform: scale(1.1);
+      }
+    .introducao {
+        margin-top: 15px;
+        font-size: 10px;
+      flex-grow: 1;
+    }
+
+    .nome{ 
+        font-size: 20px;
+    }
+
+   
   }
+
+      @media (min-width: 681px) {
+        .front {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
+      
+        .foto-home {
+          width: 300px; /* Largura da imagem */
+          padding: 0;
+          margin-right: 20px; /* Espaço entre a imagem e o texto */
+          margin: 30px;
+          transition: transform 0.3s;
+          margin-top: 20px;
+        }
+        #foto-home:hover {
+            transform: scale(1.1);
+          }
+        .introducao {
+          flex-grow: 1;
+        }
+
+
+       
+      }
+      @media (min-width: 870px) {
+        .front {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
+      
+        .foto-home {
+          width: 400px; /* Largura da imagem */
+          padding: 0;
+          margin-right: 20px; /* Espaço entre a imagem e o texto */
+          margin: 30px;
+          transition: transform 0.3s;
+          margin-top: 20px;
+        }
+        #foto-home:hover {
+            transform: scale(1.1);
+          }
+        
+        .introducao {
+            margin-top: 10px;
+            font-size: 15px;
+          flex-grow: 1;
+        }
+    
+        .nome{ 
+            font-size: 30px;
+        }
+        .intro {
+            font-size: 10px;
+        }
+      
+
+       
+      }
+      @media (min-width: 1096px){
+        .front {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
+      
+        .foto-home {
+          width: 400px; /* Largura da imagem */
+          padding: 0;
+          margin-right: 20px; /* Espaço entre a imagem e o texto */
+          margin: 50px;
+          transition: transform 0.3s;
+          margin-top: 20px;
+        }
+        #foto-home:hover {
+            transform: scale(1.1);
+          }
+        
+        .introducao {
+            margin-top: 20px;
+            font-size: 30px;
+          flex-grow: 1;
+        }
+    
+        .nome{ 
+            font-size: 55px;
+        }
+        .intro {
+            font-size: 25px;
+        }
+  #btn-cv {
+      
+        width: 350px;
+        height: 40px;
+  }
+
+  #btn-ct {
+      
+    width: 350px;
+    height: 40px;
+}
+
+.sobre-titulo {
+    font-size: 40px;
+    color: #FFFF;
+}
+
+.tx-sobre{
+    font-size: 30px;
+
+    color: gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+.hab {
+    font-size: 40px;
+
+    color: #FFFF;
+}
+
+
+       
+      }

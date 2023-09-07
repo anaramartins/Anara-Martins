@@ -1,16 +1,7 @@
 import fotohome from '../../imagens/Anara.jpg';
 import menu from '../../imagens/icon-menu.png';
 import fotohab from '../../imagens/habilidades.jpg';
-import git from '../../imagens/icongit.png';
-import instagran from '../../imagens/insta.png';
 import cel from '../../imagens/celular.png';
-import linkedin from '../../imagens/linkedin.png';
-
-
-
-
-
-
 
 
 export default () => {
@@ -28,19 +19,22 @@ export default () => {
   </div>
 </nav>
 
-    <article class="front">
-    <picture id="picture-home">
-    <img src="${fotohome}" alt="" class="foto-home">
-  </picture>
-  <div class="introducao"> 
-    <h2 class ="titulo">Olá, Sejam bem vindes!!!</h2>
-    <h1 class ="nome"> Eu sou Anara Martins </h1>
-    <p class ="intro">Desenvolvedora de Front-End</p>
-    <div class="botoes">
-    <button id="btn-cv"><a">Download CV</a></button>
+<article class="front">
+<picture id="picture-home">
+  <img src="${fotohome}" alt="" class="foto-home">
+</picture>
+<div class="introducao">
+  <h2 class="titulo">Olá, Sejam bem vindes!!!</h2>
+  <h1 class="nome"> Eu sou Anara Martins </h1>
+  <p class="intro">Desenvolvedora de Front-End</p>
+  <div class="botoes">
+    <button id="btn-cv">
+      <a href="https://drive.google.com/file/d/18pN-nJ2R9jEmtVQrFLRO8IN33tVa_UQ6/view?usp=sharing" download>Download CV</a>
+    </button>
     <button id="btn-ct"><a href="/#contato">Contato</a></button>
-    </div>
-    </article>
+  </div>
+</div>
+</article> 
     <article class="sobre">
     <h2 class="sobre-titulo">Sobre mim</h2>
     <p class="tx-sobre">
@@ -58,39 +52,12 @@ export default () => {
     <h2 class="hab">Habilidades</h2>
     <img src="${fotohab}" alt="" class="foto-hab">
     </picture>
-    
-    <h2 class="contatos">Contatos</h2>
-<h3 class="name">Anara Martins</h3>
-<div class="contatosIn">
-  <a href="mailto:anaramartins31@gmail.com">
-    <img src="" alt="E-mail" class="icone-contato" target="_blank">
-  </a>
-  <a href="https://www.linkedin.com/in/anara-martins-4740b0108/" target="_blank">
-    <img src="${linkedin}" alt="LinkedIn" class="icone-contato">
-  </a>
-  <a href="https://github.com/Anara-carolina/" target="_blank">
-    <img src="${git}" alt="GitHub" class="icone-contato">
-  </a>
-  <a href="https://www.instagram.com/anaracbm/" target="_blank">
-    <img src="${instagran}" alt="Instagram" class="icone-contato">
-  </a>
-  <a href="tel:(34) 99789-7879">
-    <img src="${cel}" alt="Telefone" class="icone-contato">
-  </a>
-</div>
-
-
-</div>
-
-
-  
-    
-
-
+    </article>
    
-    `;
-   
-    
+
+</div> `;
+
+
 
   container.innerHTML = template;
 
