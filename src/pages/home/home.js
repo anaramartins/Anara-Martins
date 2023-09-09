@@ -1,7 +1,6 @@
 import fotohome from '../../imagens/Anara.jpg';
 import menu from '../../imagens/icon-menu.png';
 import fotohab from '../../imagens/habilidades.jpg';
-import cel from '../../imagens/celular.png';
 
 
 export default () => {
@@ -9,15 +8,22 @@ export default () => {
   container.id = 'csshome';
 
   const template = `
+  <div class="container-menu"> 
   
   <nav id="menuPortifolio">
-  
+  <ul class="lista-menu">
+  <li>Sobre</li>
+  <li>Habilidades</li>
+  <li>Projetos</li>
+  <li>Contato</li>
+  </ul>
+ </nav>  
+ <button id="btn-menu"><img src="${menu}" id ="iconMenu"></button>
+
   <div class="portifolio">
-  <picture>
-  <img src="${menu}" alt="" class="iconMenu">
-</picture>   <h1 class="txPortifolio">Portifólio</h1>
-  </div>
-</nav>
+  <h1 class="txPortifolio">Portifólio</h1>
+ </div>
+</div>
 
 <article class="front">
 <picture id="picture-home">
@@ -57,9 +63,16 @@ export default () => {
 
 </div> `;
 
+container.innerHTML = template;
 
+const listaMenu = container.querySelector('.lista-menu');
+const botaoMenu = container.querySelector('#btn-menu');
 
-  container.innerHTML = template;
+function abrirMenu() {
+  listaMenu.classList.toggle('open');
+}
+
+botaoMenu.addEventListener('click', abrirMenu);
 
   return container;
 };

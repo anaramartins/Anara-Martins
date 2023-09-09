@@ -29,54 +29,85 @@ body {
         
       }
 
-
-      
-      
+      .container-menu {
+        margin-top: 150px;
+        border: 5px solid transparent;
+       border-image: linear-gradient(45deg, #ff00ff, #00ffff);
+       border-image-slice: 1;
+       border-image-source: linear-gradient(45deg, #ff00ff, #00ffff);
+       border-top: none;
+       border-left: none;
+       border-right: none;
+   }
   
-  #foto-home:hover {
-    transform: scale(1.1);
-  }
   
-  #menuPortifolio{ border: 5px solid transparent;
-    border-image: linear-gradient(45deg, #ff00ff, #00ffff);
-    border-image-slice: 1;
-    border-image-source: linear-gradient(45deg, #ff00ff, #00ffff);
-    border-top: none;
-    border-left: none;
-    border-right: none;
-}
+   #btn-menu {
+    margin-top: -100px;
+    background-color: transparent;
+    border: none;
+    position: fixed;
+    z-index: 2; 
 
 
-  .portifolio {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffff;
   }
+
+  #iconMenu {
+    width: 200px;
+    margin-left: -80px;
+    margin-top: -20px;
+  }
+
+
   
-
-  .iconMenu {
-    width: 40px; /* Defina a largura desejada para a imagem */
-    height: auto; /* Mantém a proporção original da imagem */
- 
-  }
   
   .txPortifolio {
     align-items: center;
     justify-content: center;
     margin-bottom: 15px;
+    color: #ffff;
+    margin-top: -110px;
+
   }
   
   /* Adicione as regras de borda à .portifolio se necessário */
   .portifolio {
-   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     margin: 0;
     padding: 0%;
-    display: flex;
-    align-items: center; /* Centraliza verticalmente */
   }
 
 
+
+
+      .lista-menu{
+
+        margin-top: 150px;
+        position: fixed;
+        top: 0;
+        left: -100%; /* Inicialmente, o menu está fora da tela */
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 80%);
+        padding-top: 20%; /* Isso ajuda a centralizar o conteúdo verticalmente */
+        transition: left 0.3s ease; /* Efeito de transição suave para o movimento lateral */
+      }
+
+      .lista-menu.open {
+        left: 0; /* Quando a classe 'open' é aplicada, o menu desliza para dentro */
+      }
+      .lista-menu>li {
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #FFFF;
+    }
+      
+  
+  
   .front{
     color: #ffff;
     display: flex;
