@@ -342,6 +342,26 @@ p {
 .github-link:hover {
   background-color: #24292e; /* Cor de fundo ao passar o mouse (pode personalizar) */
 }
+.githubLink {
+  margin: 20px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ff00ff;
+  color: #fff; /* Cor do texto do link */
+  padding: 10px 15px; /* Espaçamento interno */
+  border-radius: 40px; /* Borda arredondada */
+  transition: background-color 0.3s; /* Transição de cor de fundo ao passar o mouse */
+}
+
+.githubLink img {
+  width: 40px; /* Largura da imagem do ícone do GitHub */
+  height: 40px; /* Altura da imagem do ícone do GitHub */
+  border-radius: 10px;
+}
+
+.githubLink:hover {
+  background-color: #ff00ff;
+}
 
 
 @media (min-width: 481px) {

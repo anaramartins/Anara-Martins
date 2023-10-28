@@ -130,27 +130,25 @@ export default () => {
 <h2 class="sobre-titulo">Contato</h2>
 
 <a class="github-link" href="https://github.com/Anara-carolina">
-  <img src="https://cdns.iconmonstr.com/wp-content/releases/preview/2012/240/iconmonstr-github-1.png" alt="GitHub">
+  <img src="https://raw.githubusercontent.com/anaramartins/img/main/github.png" alt="GitHub">
 </a>
 <a class="github-link" href="mailto:anaramartins21@gmail.com">
-  <img src="https://freepngimg.com/download/temp_png/64774-computer-gmail-email-icons-png-image-high-quality.jpeg">
+  <img src="https://raw.githubusercontent.com/anaramartins/img/main/email.jpeg">
 </a>
 <a class="github-link" href="https://www.linkedin.com/in/anara-martins-4740b0108/">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShEc1paf8p4TXc8bMUIFipObNfJ2w209_FPQ&usqp=CAU" alt="Linkedin">
+  <img src="https://raw.githubusercontent.com/anaramartins/img/main/images.png" alt="Linkedin">
 </a>
 
 </a>
 <a class="github-link" href="https://www.instagram.com/anaracbm/">
-  <img src="https://img.freepik.com/fotos-premium/renderizacao-3d-icone-da-camera-isolado-no-fundo-branco-logotipo-da-camera-para-interface-do-usuario-e-logotipo-do-aplicativo-do-site_640106-982.jpg" alt="Linkedin">
+  <img src="https://raw.githubusercontent.com/anaramartins/img/main/instagran.png">
 </a>
 <a class="github-link" href="https://wa.me/5534997897879">
-  <img src="https://i.pinimg.com/474x/cf/5a/c8/cf5ac89110f9f154619240cb7e9d16aa.jpg" alt="WhatsApp">
+  <img src="https://raw.githubusercontent.com/anaramartins/img/main/whats.jpg" alt="WhatsApp">
 </a>
 <a class="github-link" href="https://www.facebook.com/anara.martins">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVaSZtPszlt7q0YfqGtTrYTxDVUtCyqHCmLA&usqp=CAU" alt="Linkedin">
 </a>
-
-
 
     </article>
    

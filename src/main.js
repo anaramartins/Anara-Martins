@@ -2,8 +2,8 @@
 import home from './pages/home/home';
 import sobre from './pages/sobre/sobre';
 import habilidades from './pages/habilidades/habilidades';
-/*import projetos from './pages/projetos/projetos';
-import contato from './pages/contato/contato';*/
+import projetos from './pages/projetos/projetos';
+import contato from './pages/contato/contato';
 
 
 const principal = document.querySelector('#principal');

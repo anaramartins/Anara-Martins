@@ -57,8 +57,31 @@ export default () => {
         resolução de problemas e muitas outras. Estou animada para ver o que o futuro reserva para 
         minha trajetória de aprendizado e crescimento
     </p>
-      <img src="${fotohab}" alt="" class="foto-hab">
-      </picture>
+    <div class="iconHab">
+    <a class="githubLink"><img src="https://raw.githubusercontent.com/anaramartins/img/main/%F0%9F%A6%86%20icon%20_html%205_.png" alt="iconhtml">
+    </a>
+    <a class="github-link"><img src="https://raw.githubusercontent.com/anaramartins/img/main/%F0%9F%A6%86%20icon%20_css%203_.png" alt="iconcss">
+    </a>
+    <a class="githubLink"><img src="https://raw.githubusercontent.com/anaramartins/img/main/%F0%9F%A6%86%20icon%20_JavaScript%20(JS)_.png" alt="iconjs">
+    </a>
+    <a class="github-link"><img src="https://raw.githubusercontent.com/anaramartins/img/main/%F0%9F%A6%86%20icon%20_node%20dot%20js_.png" alt="iconnode">
+    </a>
+    <a class="githubLink"><img src="https://raw.githubusercontent.com/anaramartins/img/main/%F0%9F%A6%86%20icon%20_reactjs%20fill_.png" alt="iconreact">
+    </a>
+    <a class="github-link"><img src="https://raw.githubusercontent.com/anaramartins/img/main/%F0%9F%A6%86%20icon%20_kotlin_.png" alt="iconkotlin">
+    </a>
+    <a class="githubLink"><img src="https://raw.githubusercontent.com/anaramartins/img/main/git.png" alt="icongit">
+    </a>
+    <a class="github-link"><img src="https://raw.githubusercontent.com/anaramartins/img/main/%F0%9F%A6%86%20icon%20_github_.png" alt="icongitHub">
+    </a>
+     <a class="githubLink"><img src="https://raw.githubusercontent.com/anaramartins/img/main/%F0%9F%A6%86%20icon%20_firebase_.png" alt="icon">
+    </a>
+    <a class="github-link"><img src="https://raw.githubusercontent.com/anaramartins/img/main/%F0%9F%A6%86%20icon%20_figma%20logo_.png" alt="iconfigma">
+    </a>
+    <a class="githubLink"><img src="https://raw.githubusercontent.com/anaramartins/img/main/%F0%9F%A6%86%20icon%20_canva_.png" alt="iconcanva">
+    </a>
+    </div>
+    
       </article>
      
   
