@@ -251,11 +251,13 @@ p {
   padding: 5px;
   margin: 5px;
 }
-.project{
+
+.project {
   color: #FFFFFF;
   font-size: 40px;
 
 }
+
 .hab {
   color: #FFFF;
 }
@@ -291,7 +293,7 @@ p {
 }
 
 /*modal*/
-.btn-project{
+.btn-project {
   display: flex;
   width: 150px;
   height: 40px;
@@ -310,10 +312,10 @@ p {
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
   text-decoration: none;
-  
+
 }
 
-.modal-content{
+.modal-content {
   background-color: rgb(252, 247, 247);
   align-items: center;
   justify-content: center;
@@ -326,36 +328,51 @@ p {
   margin: 20px;
   display: inline-block;
   text-decoration: none;
-  background-color: #333; /* Cor de fundo do link */
-  color: #fff; /* Cor do texto do link */
-  padding: 10px 15px; /* Espaçamento interno */
-  border-radius: 40px; /* Borda arredondada */
-  transition: background-color 0.3s; /* Transição de cor de fundo ao passar o mouse */
+  background-color: #333;
+  /* Cor de fundo do link */
+  color: #fff;
+  /* Cor do texto do link */
+  padding: 10px 15px;
+  /* Espaçamento interno */
+  border-radius: 40px;
+  /* Borda arredondada */
+  transition: background-color 0.3s;
+  /* Transição de cor de fundo ao passar o mouse */
 }
 
 .github-link img {
-  width: 40px; /* Largura da imagem do ícone do GitHub */
-  height: 40px; /* Altura da imagem do ícone do GitHub */
+  width: 40px;
+  /* Largura da imagem do ícone do GitHub */
+  height: 40px;
+  /* Altura da imagem do ícone do GitHub */
   border-radius: 10px;
 }
 
 .github-link:hover {
-  background-color: #24292e; /* Cor de fundo ao passar o mouse (pode personalizar) */
+  background-color: #24292e;
+  /* Cor de fundo ao passar o mouse (pode personalizar) */
 }
+
 .githubLink {
   margin: 20px;
   display: inline-block;
   text-decoration: none;
   background-color: #ff00ff;
-  color: #fff; /* Cor do texto do link */
-  padding: 10px 15px; /* Espaçamento interno */
-  border-radius: 40px; /* Borda arredondada */
-  transition: background-color 0.3s; /* Transição de cor de fundo ao passar o mouse */
+  color: #fff;
+  /* Cor do texto do link */
+  padding: 10px 15px;
+  /* Espaçamento interno */
+  border-radius: 40px;
+  /* Borda arredondada */
+  transition: background-color 0.3s;
+  /* Transição de cor de fundo ao passar o mouse */
 }
 
 .githubLink img {
-  width: 40px; /* Largura da imagem do ícone do GitHub */
-  height: 40px; /* Altura da imagem do ícone do GitHub */
+  width: 40px;
+  /* Largura da imagem do ícone do GitHub */
+  height: 40px;
+  /* Altura da imagem do ícone do GitHub */
   border-radius: 10px;
 }
 
@@ -370,11 +387,13 @@ p {
     flex-direction: row;
     align-items: center;
   }
-  .foto-hab{
+
+  .foto-hab {
     margin: 10px;
     padding: 10px;
     margin-right: 10px;
   }
+
   .foto-home {
     width: 200px;
     /* Largura da imagem */
@@ -410,6 +429,11 @@ p {
     align-items: center;
   }
 
+  .foto-hab {
+    width: 600px;
+    height: auto;
+  }
+
   .foto-home {
     width: 300px;
     /* Largura da imagem */
@@ -438,6 +462,11 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
+  }
+
+  .foto-hab {
+    width: 800px;
+    height: auto;
   }
 
   .foto-home {

@@ -127,7 +127,7 @@ export default () => {
   </div>
 </div>
 
-<h2 class="sobre-titulo">Contato</h2>
+<h2 class="sobre-titulo">Contatos</h2>
 
 <a class="github-link" href="https://github.com/Anara-carolina">
   <img src="https://raw.githubusercontent.com/anaramartins/img/main/github.png" alt="GitHub">
