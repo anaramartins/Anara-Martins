@@ -31,7 +31,7 @@ export default () => {
   <img src="${fotohome}" alt="" class="foto-home">
 </picture>
 <div class="introducao">
-  <h2 class="titulo">Olá, Sejam bem vindos!!!</h2>
+  <h2 class="titulo">Olá, Sejam bem vindos!</h2>
   <h1 class="nome"> Eu sou Anara Martins </h1>
   <p class="intro">Desenvolvedora de Front-End</p>
   <div class="botoes">
